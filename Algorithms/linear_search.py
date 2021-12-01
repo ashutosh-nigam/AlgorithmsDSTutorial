@@ -8,7 +8,7 @@ def linear_search(items_list: list, target: int):
 
 def verify(index: int, target: int):
     if index is None:
-        print(f'Target item {target} no found')
+        print(f'Target item {target} not found')
     else:
         print(f'Target Item {target} found at Index: {index}')
 
